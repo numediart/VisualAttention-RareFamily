@@ -11,6 +11,10 @@ If you use DR2019, please cite :
 >`@misc{matei2020visual,  
  title={Visual Attention: Deep Rare Features}, author={Mancas Matei and Kong Phutphalla and Gosselin Bernard}, year={2020}, eprint={2005.12073}, archivePrefix={arXiv}, primaryClass={cs.CV}}`  
 
+## Rare 2017
+
+TODO : Explain
+
 ### How to run
 
 Go into the DeepRare2019 folder and type >>python Run_DR_2019.py. The main function takes in a folder all the images, show results and record the saliency map in a different folder. The result here is the raw data which will not let you reproduce exactly the paper results. you still need to low-pass filter the results and, for natural images datasets (such as MIT1003 ...), add also a centred Gaussian. 
