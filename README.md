@@ -22,11 +22,11 @@ If you use DR2019, please cite :
 * Let you check the contributions of different VGG16 layers to the final result
 * Fast even when ran only on CPU
 
-## Rare 2012
+## Rare 2012 (R2012)
 
 Comming soon. Rare2012 is a state-of-the-art feature-engineered saliency model. 
 
 
-## Rare 2007
+## Rare 2007 (R2007)
 
 Comming soon. Rare2007 is the first feature-engineered saliency model based on the feature histogram rarity. 
