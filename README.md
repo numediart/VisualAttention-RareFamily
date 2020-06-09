@@ -4,7 +4,7 @@ We provide several codes to compute image saliency from the Rare family. The phi
 > ![Rariy & Saliency](images/rarity.jpg) 
 > Initial image on the left and raw saliency map (probability for each pixel to attract human attention) on the right. No filtering or centred Gaussian applied here. 
 
-## DeepRare2019 (DR2019)
+## DeepRare2019 - (DR2019)
 Rarity is computed on the deep features extracted by a VGG16 trained on ImageNET. No training is needed. This model is neither "feature-engineered saliency model" as features come from a DNN model, nor a DNN-based model as it needs no training on an eye-tracking dataset: the default ImageNET training of the provided VGG16 is used. It is thus a "deep-engineered" model.
 
 #### Use DR2019
@@ -22,11 +22,11 @@ If you use DR2019, please cite :
 * Let you check the contributions of different VGG16 layers to the final result
 * Fast even when ran only on CPU
 
-## Rare 2012 (R2012)
+## Rare 2012 - (R2012)
 
 Comming soon. Rare2012 is a state-of-the-art feature-engineered saliency model. 
 
 
-## Rare 2007 (R2007)
+## Rare 2007 - (R2007)
 
 Comming soon. Rare2007 is the first feature-engineered saliency model based on the feature histogram rarity. 
