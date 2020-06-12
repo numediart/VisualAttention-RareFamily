@@ -25,9 +25,9 @@ If you use DR2019, please cite :
 
 ## Rare 2012 - (R2012)
 
-Comming soon. Rare2012 is a state-of-the-art feature-engineered saliency model. 
+[GitHub Project Page](https://github.com/numediart/VisualAttention-Rare2012)
 
 
 ## Rare 2007 - (R2007)
 
-Comming soon. Rare2007 is the first feature-engineered saliency model based on the feature histogram rarity. 
+[GitHub Project Page](https://github.com/numediart/VisualAttention-Rare2007)
