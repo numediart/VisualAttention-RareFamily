@@ -21,13 +21,51 @@ If you use DR2019, please cite :
 * Works better than any DNN-based model on one-odd-out datasets (like P3, O3, ...) and is always in top-3 withe feature-engineered models
 * Let you check the contributions of different VGG16 layers to the final result
 * Fast even when ran only on CPU
+* Interesting also for compression applications as the saliency map is precise
 
 
 ## Rare 2012 - (R2012)
 
-[GitHub Project Page](https://github.com/numediart/VisualAttention-Rare2012)
+Rarity is computed on 1) color and 2) Gabor features. This model is a "feature-engineered saliency model".
+
+#### Use R2012
+A full paper can be found here : [Main Rare2012 paper](http://applications.umons.ac.be/docnum/c7b423fd-d183-486c-9cec-966066b9b364/342FA573-191D-4A8C-9D3B-5003A53289B0/rare2012.pdf) and here is the [Github Project page](https://github.com/numediart/VisualAttention-Rare2012) .
+
+#### Cite R2012
+If you use R2012, please cite :   
+>  @article{riche2013rare2012,
+  title={Rare2012: A multi-scale rarity-based saliency detection with its comparative statistical analysis},
+  author={Riche, Nicolas and Mancas, Matei and Duvinage, Matthieu and Mibulumukini, Makiese and Gosselin, Bernard and Dutoit, Thierry},
+  journal={Signal Processing: Image Communication},
+  volume={28},
+  number={6},
+  pages={642--658},
+  year={2013},
+  publisher={Elsevier}
+}  
+
+#### Special strength of R2012
+* Generic ans easy to use
+* Better than R2007
 
 
 ## Rare 2007 - (R2007)
+Rarity is computed only on color features. This model is a "feature-engineered saliency model".
 
-[GitHub Project Page](https://github.com/numediart/VisualAttention-Rare2007)
+#### Use R2007
+A full paper can be found here : [Main Rare2007 paper](https://www.researchgate.net/profile/Matei_Mancas/publication/221559276_Relative_Influence_of_Bottom-Up_and_Top-Down_Attention/links/09e4150c1b7dc86ef2000000.pdf) and here is the [Github Project page](https://github.com/numediart/VisualAttention-Rare2007) .
+
+#### Cite R2007
+If you use R2007, please cite :   
+> @inproceedings{mancas2008relative,
+  title={Relative influence of bottom-up and top-down attention},
+  author={Mancas, Matei},
+  booktitle={International Workshop on Attention in Cognitive Systems},
+  pages={212--226},
+  year={2008},
+  organization={Springer}
+}
+
+#### Special strength of R2007
+* Generic ans easy to use
+* Interesting for compression applications as it provides a precise saliency map
