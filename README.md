@@ -33,7 +33,7 @@ A full paper can be found here : [Main Rare2012 paper](http://applications.umons
 
 #### Cite R2012
 If you use R2012, please cite :   
->  @article{riche2013rare2012,
+>  `@article{riche2013rare2012,
   title={Rare2012: A multi-scale rarity-based saliency detection with its comparative statistical analysis},
   author={Riche, Nicolas and Mancas, Matei and Duvinage, Matthieu and Mibulumukini, Makiese and Gosselin, Bernard and Dutoit, Thierry},
   journal={Signal Processing: Image Communication},
@@ -42,7 +42,7 @@ If you use R2012, please cite :
   pages={642--658},
   year={2013},
   publisher={Elsevier}
-}  
+}`  
 
 #### Special strength of R2012
 * Generic ans easy to use
@@ -57,14 +57,14 @@ A full paper can be found here : [Main Rare2007 paper](https://www.researchgate.
 
 #### Cite R2007
 If you use R2007, please cite :   
-> @inproceedings{mancas2008relative,
+> `@inproceedings{mancas2008relative,
   title={Relative influence of bottom-up and top-down attention},
   author={Mancas, Matei},
   booktitle={International Workshop on Attention in Cognitive Systems},
   pages={212--226},
   year={2008},
   organization={Springer}
-}
+}`
 
 #### Special strength of R2007
 * Generic ans easy to use
